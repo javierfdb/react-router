@@ -9,6 +9,8 @@ export default function QuienesSomos() {
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui labore cupiditate reiciendis eligendi, sit error dicta nobis illo quas! Alias obcaecati rerum repellendus. Molestias, accusantium deleniti nesciunt repudiandae corrupti fugiat!</p>
 
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui labore cupiditate reiciendis eligendi, sit error dicta nobis illo quas! Alias obcaecati rerum repellendus.</p>
+                    <h4><a target="_blank" href="#">VER DEPLOY</a></h4>
+                    <h4><a target="_blank" href="https://github.com/javierfdb/react-router">VER REPOSITORIO</a></h4>
                 </div>
             </div>
             <div className="row">

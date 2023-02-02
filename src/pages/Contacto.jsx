@@ -17,6 +17,8 @@ export default function Contacto() {
             </div>
             <button type="submit" className="btn btn-primary mb-5 btn-submit">Enviar</button>
             </div>
+            <h4><a target="_blank" href="#">VER DEPLOY</a></h4>
+                    <h4><a target="_blank" href="https://github.com/javierfdb/react-router">VER REPOSITORIO</a></h4>
         </div>
         </>
     )

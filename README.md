@@ -5,7 +5,7 @@
 
 ## Revisa el Repositorio acá: 
 
-[Ver](https://github.com/javierfdb/prueba-react-js)
+[Ver](https://github.com/javierfdb/react-router)
 
 
 

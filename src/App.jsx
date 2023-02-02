@@ -9,6 +9,9 @@ import QuienesSomos from "./pages/QuienesSomos";
 import Contacto from "./pages/Contacto";
 import NotFound from "./pages/NotFound";
 
+// DEPLOY --> #
+// REPSITORIO --> https://github.com/javierfdb/react-router
+
 function App() {
 
   return (
