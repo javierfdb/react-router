@@ -1,3 +1,7 @@
+/* DEPLOY --> https://react-router-jdb.netlify.app/ */
+/* REPSITORIO --> https://github.com/javierfdb/react-router */
+
+
 body {
   place-items: flex-start !important;
 }
@@ -138,7 +142,8 @@ footer {
 
 @media screen and (min-width: 991px) {
   .MuiPaper-root ul svg,
-  .css-elhp89-MuiSvgIcon-root {
+  .css-elhp89-MuiSvgIcon-root,
+  .css-hjmalu {
     display: none !important;
   }
 }

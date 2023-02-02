@@ -1,6 +1,8 @@
 import * as React from 'react';
 import Container from '@mui/material/Container';
-import { Typography } from '@mui/material';
+
+// DEPLOY --> https://react-router-jdb.netlify.app/
+// REPSITORIO --> https://github.com/javierfdb/react-router
 
 export default function Footer() {
     return (

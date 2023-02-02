@@ -1,5 +1,8 @@
 import { Typography } from '@mui/material';
 
+// DEPLOY --> https://react-router-jdb.netlify.app/
+// REPSITORIO --> https://github.com/javierfdb/react-router
+
 export default function Home() {
     return (
        <>
@@ -10,7 +13,7 @@ export default function Home() {
 
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui labore cupiditate reiciendis eligendi, sit error dicta nobis illo quas! Alias obcaecati rerum repellendus.</p>
                      
-                    <h4><a target="_blank" href="#">VER DEPLOY</a></h4>
+                    <h4><a target="_blank" href="https://react-router-jdb.netlify.app/">VER DEPLOY</a></h4>
                     <h4><a target="_blank" href="https://github.com/javierfdb/react-router">VER REPOSITORIO</a></h4>
                 </div>
         </div>
