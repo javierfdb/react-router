@@ -1,0 +1,179 @@
+body {
+  place-items: flex-start !important;
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 100%;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+#root, main {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.cont-main {
+  margin-top: 5rem;
+  min-height: 700px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.MuiSvgIcon-root {
+  color: #fff;
+}
+
+.MuiToolbar-root {
+  justify-content: space-between;
+}
+
+.MuiPaper-root ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+.MuiPaper-root ul li a {
+  margin: 0rem .5rem;
+  color: #fff;
+}
+
+.MuiPaper-root ul li a.active {
+  padding-bottom: .2rem;
+  border-bottom: 2px solid #fff;
+}
+
+.titulo-pagina {
+  padding-top: 2rem !important;
+}
+
+footer {
+  background-color: #1976d2;
+}
+
+.box-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.box-footer p {
+  color: #fff;
+  margin-bottom: 0PX;
+}
+
+.btn-submit {
+  min-width: 200px;
+}
+
+@media screen and (min-width: 991px) {
+  .MuiPaper-root ul svg,
+  .css-elhp89-MuiSvgIcon-root {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+   .MuiPaper-root ul li {
+     margin-bottom: .5rem;
+  }
+  .cont-main {
+    min-height: 650px;
+  }
+  .MuiPaper-root ul {
+    padding-top: 2rem;
+    flex-direction: column;
+    position: absolute;
+    height: 200px;
+    top: 0;
+    width: 200px;
+    z-index: 99;
+    background: #1976d2;
+    transform: translateX(-116%);
+    -webkit-transform: translateX(-116%);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+  }
+
+  .MuiPaper-root ul.active {
+    -webkit-transform: translateX(-16%);
+    transform: translateX(-16%);
+  }
+
+  .MuiPaper-root ul svg {
+    font-weight: bold;
+    position: absolute;
+    right: 1rem;
+    top: .5rem;
+  }
+}
